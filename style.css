@@ -1460,20 +1460,17 @@ ul { list-style: none; }
   }
 
   .hero-stats {
-    gap: 12px;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
   }
 
-  .stat-number {
-    font-size: 20px;
-  }
-
-  .stat-label {
-    font-size: 11px;
+  .stat {
+    text-align: center;
   }
 
   .stat-divider {
-    height: 28px;
+    display: none;
   }
 
   .contact-grid {
