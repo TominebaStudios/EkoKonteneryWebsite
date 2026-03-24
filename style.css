@@ -348,10 +348,22 @@ ul { list-style: none; }
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 
+.stat-top {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
 .stat-number {
   display: block;
   font-size: 28px;
   font-weight: 800;
+  color: #fff;
+}
+
+.stat-unit {
+  font-size: 18px;
+  font-weight: 700;
   color: #fff;
 }
 
@@ -1460,13 +1472,20 @@ ul { list-style: none; }
   }
 
   .hero-stats {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+
+  .stat-number {
+    font-size: 22px;
+  }
+
+  .stat-unit {
+    font-size: 14px;
   }
 
   .stat-divider {
-    display: none;
+    height: 32px;
   }
 
   .contact-grid {
