@@ -348,21 +348,10 @@ ul { list-style: none; }
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-.stat-top {
-  display: flex;
-  align-items: baseline;
-  gap: 6px;
-}
-
 .stat-number {
+  display: block;
   font-size: 28px;
   font-weight: 800;
-  color: #fff;
-}
-
-.stat-unit {
-  font-size: 18px;
-  font-weight: 700;
   color: #fff;
 }
 
@@ -1476,15 +1465,15 @@ ul { list-style: none; }
   }
 
   .stat-number {
-    font-size: 22px;
+    font-size: 20px;
   }
 
-  .stat-unit {
-    font-size: 14px;
+  .stat-label {
+    font-size: 11px;
   }
 
   .stat-divider {
-    height: 32px;
+    height: 28px;
   }
 
   .contact-grid {
