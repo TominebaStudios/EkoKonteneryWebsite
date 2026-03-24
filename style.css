@@ -355,7 +355,6 @@ ul { list-style: none; }
 }
 
 .stat-number {
-  display: block;
   font-size: 28px;
   font-weight: 800;
   color: #fff;
