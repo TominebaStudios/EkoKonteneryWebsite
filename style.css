@@ -1462,7 +1462,11 @@ ul { list-style: none; }
   .hero-stats {
     flex-direction: column;
     gap: 16px;
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .stat {
+    text-align: center;
   }
 
   .stat-divider {
